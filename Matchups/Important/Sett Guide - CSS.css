@@ -1,0 +1,325 @@
+.champion:hover {
+    -webkit-filter: none;
+    filter: none;
+}
+
+.tips {
+    font-size: 32px;
+    color: aliceblue;
+}
+
+option {
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+
+    font-weight: normal;
+}
+
+.options {
+    font-size: 1.8rem;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.champion {
+    height: 720;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    -webkit-filter: grayscale(100%) ;
+    filter: grayscale(100%);
+
+    transition: .4s ease-in;
+    transition: .8s ease-out;
+}
+
+img {
+    box-align: center;
+    max-width: 90%;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.minorRunes {
+    color: gold;
+    font-family: sans-serif;
+}
+
+.armorColor {
+
+    color: gold;
+
+}
+.magicResistColor {
+
+    color: rgb(235, 30, 235);
+
+}
+.HP {
+
+    color: green;
+
+}
+.vampShield {
+
+    color: crimson;
+
+}
+.crowdControl {
+
+    color: lightblue;
+
+}
+
+td {
+    padding: .5rem;
+    border: .1rem solid aliceblue;
+    color: aliceblue;
+}
+
+body {
+    background-image: url("Sett\ Calling\ Card.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 40px;
+}
+
+
+.title {
+    align-content: center;
+    color: gold;
+    text-align: center;
+    font-size: 100px;
+
+    filter: drop-shadow(0 0 .7rem black);
+}
+
+.headerImage {
+    -webkit-filter: none;
+    filter: none;
+}
+
+.headerImage:hover, .SettAbilities:hover {
+    -webkit-filter: drop-shadow(0 0 .7rem gold);
+    filter: drop-shadow(0 0 .7rem gold);
+
+    transition: 1s ease-in;
+    transition: 1s ease-out;
+}
+
+h1, h3 {
+    color: gold;
+    font-family: sans-serif;
+}
+h2 {
+    color: darkred;
+    font-family: sans-serif;
+}
+
+.passive {
+    font-size: 25px;
+    color: darkred;
+    font-family: sans-serif;
+}
+
+.important {
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+.desc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    font-weight: 1000;
+}
+
+li, ul, .minorRune {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.SS {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.abilities {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left {
+    color: aqua;
+}
+
+.right {
+    color: darkred;
+}
+
+.numbers {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.note1 {
+    font-size: 18px;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.note {
+    font-size: 16px;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.epicenter {
+    color:darkred;
+}
+
+.impact {
+    color:orange;
+}
+
+.QE {
+    color:navajowhite ;
+}
+
+.W {
+    color:firebrick;
+}
+
+div {
+    color: lightgray;
+}
+
+
+.SettAbilities {
+    height: 150px;
+    width: 150px;
+    float: right;
+}
+
+.summonerSpells {
+    height: 116px;
+    width: 116px;
+    float:left;
+}
+
+.showcaseAbilities {
+    height: 80px;
+    width: 80px;
+}
+
+
+
+
+/* DO NOT TOUCH OR EDIT */
+
+.modal_viewer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 300;
+    overflow-y: scroll;
+}
+
+.modal_overlay {
+    background: #000000e6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 250;
+}
+
+.modal_viewer .post_preview {
+    position: relative;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 70%;
+    z-index: 300;
+}
+
+.cssdisplaynone {
+    display: none;
+}
+
+.guidemain {
+ 
+    background: rgba(0, 0, 0, 0.829);
+    position: relative;
+    -webkit-border-radius: 1rem;
+    border-radius: 1rem;
+    word-wrap: break-word;
+    width: 75rem;
+    font-size: 1.8rem;
+    margin: 5rem auto;
+    margin-top: 0;
+    padding: 3rem;
+}
+
+
+
+
+.header {
+    text-align: center;
+}
+
+.links {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: goldenrod;
+    padding: 1rem;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    color: rgba(218, 165, 32, 0.521);
+
+    transition: .4s ease-out;
+}
+a:active {
+    color: goldenrod;
+}
+a:focus {
+    color: goldenrod;
+}
+
+
+
+
+.tooltipText {
+    display: none;
+    color: goldenrod;
+    font-family:sans-serif;
+    background-color: rgba(0, 0, 0, 0.897);
+    width: 200px;
+    height: 180px;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 20px;
+    
+    margin-left: -280px;
+    margin-top: -32px;
+}
+
+.tooltip:hover + .tooltipText {
+    display: block;
+    position: absolute;
+}

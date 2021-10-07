@@ -104,14 +104,13 @@ body {
 .headerImage {
     -webkit-filter: none;
     filter: none;
+
+    transition: 1s ease-in-out;
 }
 
 .headerImage:hover, .SettAbilities:hover {
     -webkit-filter: drop-shadow(0 0 .7rem gold);
     filter: drop-shadow(0 0 .7rem gold);
-
-    transition: 1s ease-in;
-    transition: 1s ease-out;
 }
 
 h1, h3 {
@@ -206,6 +205,8 @@ div {
     height: 150px;
     width: 150px;
     float: right;
+
+    transition: 1s ease-in-out;
 }
 
 .summonerSpells {
@@ -285,14 +286,14 @@ a {
     text-decoration: none;
     color: goldenrod;
     padding: 1rem;
+
+    transition: .4s ease-in-out;
 }
 a:visited {
     text-decoration: none;
 }
 a:hover {
     color: rgba(218, 165, 32, 0.521);
-
-    transition: .4s ease-out;
 }
 a:active {
     color: goldenrod;
